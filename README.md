@@ -1,6 +1,60 @@
-# College Venue Booking website
-#WebDevelopmentProject
-College Venue Booking website allows the registered users to book a venue for any event being organized. The venue bookings are confirmed after approval from the principal and venue in-charge. The slots booked for a specified venue at a given date and time are disabled for further booking. The front-end has been designed using HTML5,CSS3,Javascript and Bootstrap. The backend has been developed using PHP and MySQL. 
+# College Venue Booking System
+
+A web-based application that allows students and staff to book college venues for events. The system supports online booking, admin approval, and automated email notifications to streamline venue management.
+
+---
+
+## 🚀 Features
+- User registration and login
+- Online venue booking for events
+- Admin approval workflow for bookings
+- Automated email notifications
+- Real-time slot availability management
+- Admin dashboard for managing venues and bookings
+
+---
+
+## 🛠️ Technologies Used
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap
+- **Backend:** PHP
+- **Database:** MySQL
+- **Email Service:** PHPMailer
+
+---
+
+## 📂 Project Structure
+College-Venue-Booking-System/
+│── css/
+│── js/
+│── PHPMailer/
+│── notification/
+│── Homepage.php
+│── application_form.php
+│── README.md
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Installation & Setup
+1. Install **XAMPP** or **WAMP**
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/fazal-shaikh/College-Venue-Booking-System.git
+Move the project to htdocs
+
+Create a MySQL database and import the .sql file
+
+Update database credentials in PHP config files
+
+Start Apache and MySQL servers
+
+Open browser:
+
+arduino
+Copy code
+http://localhost/College-Venue-Booking-System
 
 
 
