@@ -1,0 +1,112 @@
+* {
+
+    margin: 100;
+    padding: 200;
+    box-sizing: border-box;
+
+}
+
+body {
+     background-color:#8E9AAF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form{
+    top: 50%;
+    left: 35%;
+    width: 90%;
+    position: absolute;
+    transform: translate(0%, -50%);
+    max-width: 380px;
+    padding: 20px 40px 40px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 15px 25px rgb(0 0 0 / 70%);
+}
+.form h1{
+    letter-spacing:1px;
+    padding-top: 0.1px;
+    padding-bottom: 20px;
+    color:#DEE2FF;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.close{
+  position:relative;
+  right:-100%;
+  font-size:2rem;
+  font-weight:900;
+  text-decoration:none ;
+  color:inherit;
+}
+.buttons{
+
+  padding-left: 228px;
+  padding-top: 20px;
+  position: relative;
+  background-color:transparent;
+  margin: 1px;
+
+}
+
+.button {
+  display:inline-block;
+  border:none;
+  outline:none;
+  background:#DEE2FF;
+  padding:2px 20px;
+  padding-bottom:1px ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-size:1.3rem;
+  letter-spacing:1px;
+  border-radius:5px;
+  cursor:pointer;
+}
+@media only screen and (max-width: 950px)
+{
+
+  .form{
+    left:25%;
+    transform: translate(-5%, -50%);
+
+  }
+}
+@media only screen and (max-width: 550px)
+{
+  .form{
+    left:18%;
+    transform: translate(-13%, -50%);
+
+  }
+
+}
+@media only screen and (max-width: 360px )
+{
+  .form{
+    left:17%;
+    transform: translate(-13.4%, -50%);
+
+  }
+  .buttons{
+    left:-10%;
+    transform: translate(-10%, -10%);
+  }
+
+}
+option{
+  padding:14px;
+}
